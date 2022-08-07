@@ -1,0 +1,24 @@
+{
+    "name": "btbot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "ts-node ./main.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "deepl-node": "^1.3.1",
+        "discord.js": "^14.0.3",
+        "discordx": "^11.0.3",
+        "reflect-metadata": "^0.1.13",
+        "wikipedia": "^1.1.9"
+    },
+    "devDependencies": {
+        "@types/node": "^18.0.6",
+        "typescript": "^4.7.4"
+    }
+}
